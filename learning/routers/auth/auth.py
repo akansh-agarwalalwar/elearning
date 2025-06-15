@@ -3,14 +3,19 @@ from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from database.db import get_session
-from database.models import BaseUser
+from database.models import BaseUser, Student, Instructor, Admin
 from models.user import BaseUserIn, BaseUser as BaseUserPydantic
 from services.authservice import hash_password, verify_password, create_access_token
 from datetime import timedelta
 from middleware.auth import get_current_user
+from pydantic import BaseModel
 
 router = APIRouter()
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
+
+class LoginRequest(BaseModel):
+    username: str
+    password: str
 
 @router.post("/register", response_model=BaseUserPydantic, status_code=status.HTTP_201_CREATED)
 async def register(user_in: BaseUserIn, session: AsyncSession = Depends(get_session)):
@@ -34,19 +39,32 @@ async def register(user_in: BaseUserIn, session: AsyncSession = Depends(get_sess
     )
     
     session.add(new_base_user)
+    await session.flush()  # Flush to get the base_user_id
+    
+    # Create role-specific user
+    if user_in.user_type == "admin":
+        new_role_user = Admin(base_user_id=new_base_user.id)
+    elif user_in.user_type == "student":
+        new_role_user = Student(base_user_id=new_base_user.id)
+    elif user_in.user_type == "instructor":
+        new_role_user = Instructor(base_user_id=new_base_user.id)
+    else:
+        raise HTTPException(status_code=400, detail="Invalid user type")
+    
+    session.add(new_role_user)
     await session.commit()
     await session.refresh(new_base_user)
     
     return BaseUserPydantic.from_orm(new_base_user)
 
-@router.post("/token")
-async def login(form_data: OAuth2PasswordRequestForm = Depends(), session: AsyncSession = Depends(get_session)):
+@router.post("/login")
+async def login(login_data: LoginRequest, session: AsyncSession = Depends(get_session)):
     # Find user by username
-    query = select(BaseUser).where(BaseUser.username == form_data.username)
+    query = select(BaseUser).where(BaseUser.username == login_data.username)
     result = await session.execute(query)
     user = result.scalar_one_or_none()
     
-    if not user or not verify_password(form_data.password, user.password):
+    if not user or not verify_password(login_data.password, user.password):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Incorrect username or password",
@@ -63,7 +81,7 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), session: Async
         "access_token": access_token,
         "token_type": "bearer",
         "user_type": user.user_type,
-        "username":user.username
+        "username": user.username
     }
 
 @router.get("/me", response_model=BaseUserPydantic)

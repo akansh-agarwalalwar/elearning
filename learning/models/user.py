@@ -4,7 +4,7 @@ class BaseUserIn(BaseModel):
     username: str
     password: str
     email: EmailStr
-    user_type: str  # 'admin', 'student', or 'instructor'
+    user_type: str = "student"  # Default to 'student' if not provided
 
 class BaseUser(BaseUserIn):
     id: int
