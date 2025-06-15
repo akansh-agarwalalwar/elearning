@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+databases[aiomysql]
+python-dotenv
+pydantic_settings
+databases[mysql]
+sqlalchemy[asyncio]
+aiomysql
+python-jose
+python-multipart
+passlib[bcrypt]
+jose
+pydantic[email]
+cryptography
