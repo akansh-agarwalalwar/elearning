@@ -1,9 +1,7 @@
 from .models import (
     Base,
-    BaseUser,
-    Admin,
-    Student,
-    Instructor,
+    User,
+    Privilege,
     Course,
     Lesson,
     Assignment,
@@ -12,10 +10,8 @@ from .models import (
 
 __all__ = [
     "Base",
-    "BaseUser",
-    "Admin",
-    "Student",
-    "Instructor",
+    "User",
+    "Privilege",
     "Course",
     "Lesson",
     "Assignment",

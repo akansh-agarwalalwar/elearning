@@ -1,0 +1,595 @@
+2025-06-17 18:20:38 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-17 18:20:38 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-17 18:20:38 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-17 18:20:38 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-17 18:20:40 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-17 18:20:40 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-17 18:20:42 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-17 18:20:42 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-17 18:20:44 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-17 18:20:44 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-17 19:22:51 - general - INFO - API Request: POST /api/v1/instructor/courses/create | User: authenticated_user
+2025-06-17 19:22:51 - general - INFO - API Request: POST /api/v1/instructor/courses/create | User: authenticated_user | Status: 401 | Duration: 0.048s
+2025-06-17 19:22:56 - general - INFO - API Request: POST /api/v1/instructor/courses/create | User: authenticated_user
+2025-06-17 19:22:56 - general - INFO - API Request: POST /api/v1/instructor/courses/create | User: authenticated_user | Status: 401 | Duration: 0.002s
+2025-06-17 19:23:04 - general - INFO - API Request: POST /api/v1/auth/login | User: authenticated_user
+2025-06-17 19:23:05 - general - INFO - PERFORMANCE: user_login took 0.334s | User type: instructor
+2025-06-17 19:23:05 - general - INFO - API Request: POST /api/v1/auth/login | User: authenticated_user | Status: 200 | Duration: 0.353s
+2025-06-17 19:23:18 - general - INFO - API Request: POST /api/v1/instructor/courses/create | User: authenticated_user
+2025-06-17 19:23:19 - general - INFO - PERFORMANCE: course_creation took 0.022s | Title: helo
+2025-06-17 19:23:19 - general - INFO - DB CREATE: Table: courses | Record ID: 4e2e63e3-a01d-4537-94a4-b0a4fd8102fe | Details: Instructor: 1
+2025-06-17 19:23:19 - general - INFO - API Request: POST /api/v1/instructor/courses/create | User: authenticated_user | Status: 201 | Duration: 0.039s
+2025-06-17 19:25:57 - general - INFO - API Request: GET /api/v1/instructor/dashboard | User: authenticated_user
+2025-06-17 19:25:57 - general - INFO - API Request: GET /api/v1/instructor/dashboard | User: authenticated_user | Status: 200 | Duration: 0.040s
+2025-06-17 19:26:43 - general - INFO - API Request: GET /api/v1/instructor/profile | User: authenticated_user
+2025-06-17 19:26:43 - general - INFO - API Request: GET /api/v1/instructor/profile | User: authenticated_user | Status: 200 | Duration: 0.015s
+2025-06-17 20:25:44 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-17 20:25:44 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-17 23:37:53 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-17 23:37:54 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-17 23:37:57 - general - INFO - API Request: OPTIONS /api/v1/auth/login
+2025-06-17 23:37:57 - general - INFO - API Request: OPTIONS /api/v1/auth/login | Status: 405 | Duration: 0.002s
+2025-06-17 23:38:52 - general - INFO - API Request: POST /api/v1/auth/login | User: authenticated_user
+2025-06-17 23:38:52 - general - INFO - PERFORMANCE: user_login took 0.358s | User type: instructor
+2025-06-17 23:38:52 - general - INFO - API Request: POST /api/v1/auth/login | User: authenticated_user | Status: 200 | Duration: 0.364s
+2025-06-17 23:39:00 - general - INFO - API Request: OPTIONS /api/v1/auth/login
+2025-06-17 23:39:00 - general - INFO - API Request: OPTIONS /api/v1/auth/login | Status: 405 | Duration: 0.001s
+2025-06-17 23:40:02 - general - INFO - API Request: OPTIONS /api/v1/auth/login
+2025-06-17 23:40:02 - general - INFO - API Request: OPTIONS /api/v1/auth/login | Status: 405 | Duration: 0.001s
+2025-06-17 23:40:43 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-17 23:40:43 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-17 23:40:44 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-17 23:40:44 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-17 23:40:46 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-17 23:40:46 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-17 23:40:48 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-17 23:40:48 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-17 23:40:53 - general - INFO - API Request: OPTIONS /api/v1/auth/login
+2025-06-17 23:40:53 - general - INFO - API Request: OPTIONS /api/v1/auth/login | Status: 200 | Duration: 0.001s
+2025-06-17 23:40:53 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-17 23:41:15 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-17 23:41:15 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-17 23:41:17 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-17 23:41:17 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-17 23:41:17 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-17 23:41:17 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-17 23:41:19 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-17 23:41:19 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-17 23:41:19 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-17 23:41:19 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-17 23:41:20 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-17 23:41:20 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-17 23:41:25 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-17 23:41:25 - general - INFO - API Request: POST /api/v1/auth/login | Status: 401 | Duration: 0.155s
+2025-06-17 23:41:50 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-17 23:41:50 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-17 23:41:53 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-17 23:41:53 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-17 23:41:53 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-17 23:41:53 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-17 23:41:55 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-17 23:41:55 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-17 23:41:55 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-17 23:41:55 - general - INFO - API Request: POST /api/v1/auth/login | Status: 401 | Duration: 0.272s
+2025-06-17 23:42:21 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-17 23:42:21 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-17 23:42:22 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-17 23:42:22 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-17 23:42:34 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-17 23:42:34 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-17 23:42:37 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-17 23:42:37 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-17 23:42:39 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-17 23:42:39 - general - INFO - API Request: POST /api/v1/auth/login | Status: 401 | Duration: 0.282s
+2025-06-17 23:43:21 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-17 23:43:21 - general - INFO - API Request: POST /api/v1/auth/login | Status: 401 | Duration: 0.226s
+2025-06-17 23:43:25 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-17 23:43:25 - general - INFO - API Request: POST /api/v1/auth/login | Status: 401 | Duration: 0.239s
+2025-06-17 23:45:18 - general - INFO - API Request: OPTIONS /api/v1/auth/login
+2025-06-17 23:45:18 - general - INFO - API Request: OPTIONS /api/v1/auth/login | Status: 200 | Duration: 0.001s
+2025-06-17 23:45:18 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-17 23:45:18 - general - INFO - API Request: POST /api/v1/auth/login | Status: 401 | Duration: 0.007s
+2025-06-17 23:46:28 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-17 23:46:28 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-17 23:46:29 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-17 23:46:29 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-17 23:47:14 - general - INFO - API Request: OPTIONS /api/v1/auth/register
+2025-06-17 23:47:14 - general - INFO - API Request: OPTIONS /api/v1/auth/register | Status: 200 | Duration: 0.001s
+2025-06-17 23:47:14 - general - INFO - API Request: POST /api/v1/auth/register
+2025-06-17 23:47:14 - general - INFO - API Request: POST /api/v1/auth/register | Status: 400 | Duration: 0.065s
+2025-06-17 23:48:07 - general - INFO - API Request: OPTIONS /api/v1/auth/register
+2025-06-17 23:48:07 - general - INFO - API Request: OPTIONS /api/v1/auth/register | Status: 200 | Duration: 0.002s
+2025-06-17 23:48:07 - general - INFO - API Request: POST /api/v1/auth/register
+2025-06-17 23:48:07 - general - INFO - API Request: POST /api/v1/auth/register | Status: 400 | Duration: 0.016s
+2025-06-17 23:48:48 - general - INFO - API Request: POST /api/v1/auth/register
+2025-06-17 23:48:48 - general - INFO - DB CREATE: Table: base_user | Record ID: 1 | Details: User type: student
+2025-06-17 23:48:48 - general - INFO - DB CREATE: Table: student | Record ID: 1
+2025-06-17 23:48:48 - general - INFO - PERFORMANCE: user_registration took 0.312s | User type: student
+2025-06-17 23:48:48 - general - INFO - API Request: POST /api/v1/auth/register | Status: 201 | Duration: 0.319s
+2025-06-17 23:49:04 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-17 23:49:05 - general - INFO - PERFORMANCE: user_login took 0.263s | User type: student
+2025-06-17 23:49:05 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.269s
+2025-06-17 23:49:22 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-17 23:49:22 - general - INFO - PERFORMANCE: user_login took 0.216s | User type: student
+2025-06-17 23:49:22 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.220s
+2025-06-17 23:51:01 - general - INFO - API Request: OPTIONS /api/v1/auth/login
+2025-06-17 23:51:01 - general - INFO - API Request: OPTIONS /api/v1/auth/login | Status: 200 | Duration: 0.001s
+2025-06-17 23:51:01 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-17 23:51:01 - general - INFO - API Request: POST /api/v1/auth/login | Status: 401 | Duration: 0.006s
+2025-06-17 23:51:10 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-17 23:51:10 - general - INFO - API Request: POST /api/v1/auth/login | Status: 401 | Duration: 0.008s
+2025-06-17 23:51:12 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-17 23:51:12 - general - INFO - API Request: POST /api/v1/auth/login | Status: 401 | Duration: 0.004s
+2025-06-17 23:51:19 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-17 23:51:19 - general - INFO - API Request: POST /api/v1/auth/login | Status: 401 | Duration: 0.007s
+2025-06-17 23:52:06 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-17 23:52:06 - general - INFO - API Request: POST /api/v1/auth/login | Status: 401 | Duration: 0.006s
+2025-06-17 23:52:17 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-17 23:52:17 - general - INFO - API Request: POST /api/v1/auth/login | Status: 401 | Duration: 0.006s
+2025-06-17 23:52:40 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-17 23:52:40 - general - INFO - PERFORMANCE: user_login took 0.263s | User type: student
+2025-06-17 23:52:40 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.266s
+2025-06-17 23:53:52 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-17 23:53:53 - general - INFO - PERFORMANCE: user_login took 0.235s | User type: student
+2025-06-17 23:53:53 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.239s
+2025-06-17 23:59:34 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-17 23:59:34 - general - INFO - PERFORMANCE: user_login took 0.218s | User type: student
+2025-06-17 23:59:34 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.223s
+2025-06-18 00:04:19 - general - INFO - API Request: OPTIONS /api/v1/auth/login
+2025-06-18 00:04:19 - general - INFO - API Request: OPTIONS /api/v1/auth/login | Status: 200 | Duration: 0.002s
+2025-06-18 00:04:19 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 00:04:19 - general - INFO - PERFORMANCE: user_login took 0.303s | User type: student
+2025-06-18 00:04:19 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.324s
+2025-06-18 00:11:04 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 00:11:05 - general - INFO - PERFORMANCE: user_login took 0.392s | User type: student
+2025-06-18 00:11:05 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.401s
+2025-06-18 00:11:44 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 00:11:44 - general - INFO - PERFORMANCE: user_login took 0.376s | User type: student
+2025-06-18 00:11:44 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.382s
+2025-06-18 00:13:15 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 00:13:15 - general - INFO - PERFORMANCE: user_login took 0.305s | User type: student
+2025-06-18 00:13:15 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.312s
+2025-06-18 00:17:40 - general - INFO - API Request: OPTIONS /api/v1/auth/register
+2025-06-18 00:17:40 - general - INFO - API Request: OPTIONS /api/v1/auth/register | Status: 200 | Duration: 0.002s
+2025-06-18 00:17:40 - general - INFO - API Request: POST /api/v1/auth/register
+2025-06-18 00:17:40 - general - INFO - API Request: POST /api/v1/auth/register | Status: 400 | Duration: 0.022s
+2025-06-18 00:18:29 - general - INFO - API Request: POST /api/v1/auth/register
+2025-06-18 00:18:29 - general - INFO - API Request: POST /api/v1/auth/register | Status: 400 | Duration: 0.017s
+2025-06-18 00:18:37 - general - INFO - API Request: POST /api/v1/auth/register
+2025-06-18 00:18:37 - general - INFO - DB CREATE: Table: base_user | Record ID: 2 | Details: User type: admin
+2025-06-18 00:18:37 - general - INFO - DB CREATE: Table: admin | Record ID: 1
+2025-06-18 00:18:37 - general - INFO - PERFORMANCE: user_registration took 0.338s | User type: admin
+2025-06-18 00:18:37 - general - INFO - API Request: POST /api/v1/auth/register | Status: 201 | Duration: 0.344s
+2025-06-18 00:18:37 - general - INFO - API Request: OPTIONS /api/v1/auth/login
+2025-06-18 00:18:37 - general - INFO - API Request: OPTIONS /api/v1/auth/login | Status: 200 | Duration: 0.002s
+2025-06-18 00:18:37 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 00:18:38 - general - INFO - PERFORMANCE: user_login took 0.314s | User type: admin
+2025-06-18 00:18:38 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.320s
+2025-06-18 00:30:15 - general - INFO - API Request: OPTIONS /api/v1/auth/register
+2025-06-18 00:30:15 - general - INFO - API Request: OPTIONS /api/v1/auth/register | Status: 200 | Duration: 0.002s
+2025-06-18 00:30:15 - general - INFO - API Request: POST /api/v1/auth/register
+2025-06-18 00:30:17 - general - INFO - DB CREATE: Table: base_user | Record ID: 3 | Details: User type: instructor
+2025-06-18 00:30:17 - general - INFO - DB CREATE: Table: instructor | Record ID: 1
+2025-06-18 00:30:17 - general - INFO - PERFORMANCE: user_registration took 1.561s | User type: instructor
+2025-06-18 00:30:17 - general - INFO - API Request: POST /api/v1/auth/register | Status: 201 | Duration: 1.569s
+2025-06-18 00:30:17 - general - INFO - PERFORMANCE: POST /api/v1/auth/register took 1.569s | Slow request detected
+2025-06-18 00:30:17 - general - INFO - API Request: OPTIONS /api/v1/auth/login
+2025-06-18 00:30:17 - general - INFO - API Request: OPTIONS /api/v1/auth/login | Status: 200 | Duration: 0.001s
+2025-06-18 00:30:17 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 00:30:17 - general - INFO - PERFORMANCE: user_login took 0.313s | User type: instructor
+2025-06-18 00:30:17 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.317s
+2025-06-18 00:31:28 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 00:31:28 - general - INFO - PERFORMANCE: user_login took 0.307s | User type: instructor
+2025-06-18 00:31:28 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.314s
+2025-06-18 00:55:40 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 00:55:40 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 00:55:47 - general - INFO - API Request: OPTIONS /api/v1/auth/login
+2025-06-18 00:55:47 - general - INFO - API Request: OPTIONS /api/v1/auth/login | Status: 200 | Duration: 0.001s
+2025-06-18 00:55:47 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 00:55:47 - general - INFO - PERFORMANCE: user_login took 0.315s | User type: instructor
+2025-06-18 00:55:47 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.321s
+2025-06-18 09:56:54 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 09:56:54 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 09:57:20 - general - INFO - API Request: POST /api/v1/auth/login | User: authenticated_user
+2025-06-18 09:57:20 - general - INFO - API Request: POST /api/v1/auth/login | User: authenticated_user | Status: 401 | Duration: 0.028s
+2025-06-18 09:57:40 - general - INFO - API Request: POST /api/v1/auth/login | User: authenticated_user
+2025-06-18 09:57:40 - general - INFO - PERFORMANCE: user_login took 0.278s | User type: instructor
+2025-06-18 09:57:40 - general - INFO - API Request: POST /api/v1/auth/login | User: authenticated_user | Status: 200 | Duration: 0.282s
+2025-06-18 09:58:37 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 09:58:37 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 10:01:04 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 10:01:04 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 10:01:04 - general - INFO - API Request: POST /api/v1/instructor/courses/create | User: authenticated_user
+2025-06-18 10:01:04 - general - INFO - API Request: POST /api/v1/instructor/courses/create | User: authenticated_user | Status: 400 | Duration: 0.005s
+2025-06-18 10:01:05 - general - INFO - API Request: POST /api/v1/instructor/courses/create | User: authenticated_user
+2025-06-18 10:01:05 - general - INFO - API Request: POST /api/v1/instructor/courses/create | User: authenticated_user | Status: 400 | Duration: 0.068s
+2025-06-18 10:02:30 - general - INFO - API Request: POST /api/v1/instructor/courses/create-without-banner | User: authenticated_user
+2025-06-18 10:02:30 - general - INFO - API Request: POST /api/v1/instructor/courses/create-without-banner | User: authenticated_user | Status: 422 | Duration: 0.007s
+2025-06-18 10:02:51 - general - INFO - API Request: POST /api/v1/instructor/courses/create-without-banner | User: authenticated_user
+2025-06-18 10:02:51 - general - INFO - PERFORMANCE: course_creation took 0.065s | Title: hello
+2025-06-18 10:02:51 - general - INFO - DB CREATE: Table: courses | Record ID: 2ba7c824-ffe1-4dce-914e-08c27e60e8a7 | Details: Instructor: 1
+2025-06-18 10:02:51 - general - INFO - API Request: POST /api/v1/instructor/courses/create-without-banner | User: authenticated_user | Status: 201 | Duration: 0.074s
+2025-06-18 10:03:22 - general - INFO - API Request: POST /api/v1/instructor/courses/create | User: authenticated_user
+2025-06-18 10:03:22 - general - INFO - API Request: POST /api/v1/instructor/courses/create | User: authenticated_user | Status: 422 | Duration: 0.006s
+2025-06-18 10:03:26 - general - INFO - API Request: POST /api/v1/instructor/courses/create-without-banner | User: authenticated_user
+2025-06-18 10:03:26 - general - INFO - API Request: POST /api/v1/instructor/courses/create-without-banner | User: authenticated_user | Status: 422 | Duration: 0.007s
+2025-06-18 10:04:11 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 10:04:11 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 10:04:13 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 10:04:13 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 10:09:02 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 10:09:02 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 10:09:04 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 10:09:04 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 10:14:49 - general - INFO - API Request: GET /api/v1/instructor/courses/all-courses | User: authenticated_user
+2025-06-18 10:14:49 - general - INFO - PERFORMANCE: get_all_courses took 0.014s | Retrieved 1 courses
+2025-06-18 10:14:49 - general - INFO - DB READ: Table: courses | Details: Retrieved all 1 courses
+2025-06-18 10:14:49 - general - INFO - API Request: GET /api/v1/instructor/courses/all-courses | User: authenticated_user | Status: 200 | Duration: 0.017s
+2025-06-18 10:21:32 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 10:21:32 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 10:21:33 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 10:21:33 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 10:22:10 - general - INFO - API Request: POST /api/v1/instructor/courses/create-without-banner | User: authenticated_user
+2025-06-18 10:22:10 - general - INFO - API Request: POST /api/v1/instructor/courses/create-without-banner | User: authenticated_user | Status: 422 | Duration: 0.037s
+2025-06-18 10:22:20 - general - INFO - API Request: POST /api/v1/auth/login | User: authenticated_user
+2025-06-18 10:22:21 - general - INFO - PERFORMANCE: user_login took 0.271s | User type: instructor
+2025-06-18 10:22:21 - general - INFO - API Request: POST /api/v1/auth/login | User: authenticated_user | Status: 200 | Duration: 0.274s
+2025-06-18 10:22:33 - general - INFO - API Request: POST /api/v1/instructor/courses/create-without-banner | User: authenticated_user
+2025-06-18 10:22:33 - general - INFO - API Request: POST /api/v1/instructor/courses/create-without-banner | User: authenticated_user | Status: 422 | Duration: 0.006s
+2025-06-18 10:22:37 - general - INFO - API Request: POST /api/v1/instructor/courses/create-without-banner | User: authenticated_user
+2025-06-18 10:22:37 - general - INFO - API Request: POST /api/v1/instructor/courses/create-without-banner | User: authenticated_user | Status: 422 | Duration: 0.006s
+2025-06-18 10:22:52 - general - INFO - API Request: POST /api/v1/instructor/courses/create-without-banner | User: authenticated_user
+2025-06-18 10:22:52 - general - INFO - API Request: POST /api/v1/instructor/courses/create-without-banner | User: authenticated_user | Status: 422 | Duration: 0.005s
+2025-06-18 10:23:02 - general - INFO - API Request: POST /api/v1/instructor/courses/create | User: authenticated_user
+2025-06-18 10:23:02 - general - INFO - DB CREATE: Table: banner_image | Record ID: 9083f3a9-a75d-4796-8c73-15af4d3e8529 | Details: Saved: banner_9083f3a9-a75d-4796-8c73-15af4d3e8529_7a8e6cbb.png
+2025-06-18 10:23:02 - general - INFO - PERFORMANCE: course_creation took 0.088s | Title: hy
+2025-06-18 10:23:02 - general - INFO - DB CREATE: Table: courses | Record ID: 9083f3a9-a75d-4796-8c73-15af4d3e8529 | Details: Instructor: 1
+2025-06-18 10:23:02 - general - INFO - API Request: POST /api/v1/instructor/courses/create | User: authenticated_user | Status: 201 | Duration: 0.098s
+2025-06-18 10:23:15 - general - INFO - API Request: GET /api/v1/instructor/courses/all-courses | User: authenticated_user
+2025-06-18 10:23:15 - general - INFO - PERFORMANCE: get_all_courses took 0.016s | Retrieved 2 courses
+2025-06-18 10:23:15 - general - INFO - DB READ: Table: courses | Details: Retrieved all 2 courses
+2025-06-18 10:23:15 - general - INFO - API Request: GET /api/v1/instructor/courses/all-courses | User: authenticated_user | Status: 200 | Duration: 0.018s
+2025-06-18 10:30:04 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 10:30:04 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 10:30:05 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 10:30:05 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 10:30:14 - general - INFO - API Request: POST /api/v1/instructor/courses/create | User: authenticated_user
+2025-06-18 10:30:14 - general - INFO - DB CREATE: Table: banner_image | Record ID: 29691b2d-ebcb-4be8-99d0-958df7737b97 | Details: Saved: banner_29691b2d-ebcb-4be8-99d0-958df7737b97_2c6d177d.png
+2025-06-18 10:30:15 - general - INFO - PERFORMANCE: course_creation took 0.081s | Title: hjj
+2025-06-18 10:30:15 - general - INFO - DB CREATE: Table: courses | Record ID: 29691b2d-ebcb-4be8-99d0-958df7737b97 | Details: Instructor: 1
+2025-06-18 10:30:15 - general - INFO - API Request: POST /api/v1/instructor/courses/create | User: authenticated_user | Status: 201 | Duration: 0.136s
+2025-06-18 10:30:21 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 10:30:21 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 10:30:23 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 10:30:23 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 10:30:33 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 10:30:33 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 10:30:34 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 10:30:34 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 10:30:36 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 10:30:36 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 10:30:38 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 10:30:38 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 10:30:38 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 10:30:38 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 10:30:40 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 10:30:40 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 10:59:34 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 10:59:34 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 10:59:57 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 10:59:57 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 10:59:59 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 10:59:59 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 11:00:29 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 11:00:29 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 11:00:31 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 11:00:31 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 12:52:00 - general - INFO - API Request: OPTIONS /api/v1/auth/login
+2025-06-18 12:52:00 - general - INFO - API Request: OPTIONS /api/v1/auth/login | Status: 200 | Duration: 0.005s
+2025-06-18 12:52:00 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 12:52:00 - general - INFO - PERFORMANCE: user_login took 0.438s | User type: admin
+2025-06-18 12:52:00 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.470s
+2025-06-18 12:52:10 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 12:52:10 - general - INFO - PERFORMANCE: user_login took 0.251s | User type: instructor
+2025-06-18 12:52:10 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.270s
+2025-06-18 12:52:21 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 12:52:21 - general - INFO - PERFORMANCE: user_login took 0.230s | User type: student
+2025-06-18 12:52:21 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.232s
+2025-06-18 12:57:55 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 12:57:55 - general - INFO - PERFORMANCE: user_login took 0.230s | User type: instructor
+2025-06-18 12:57:55 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.233s
+2025-06-18 13:00:07 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 13:00:07 - general - INFO - PERFORMANCE: user_login took 0.249s | User type: admin
+2025-06-18 13:00:07 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.252s
+2025-06-18 14:53:00 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 14:53:00 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 14:54:32 - general - INFO - API Request: OPTIONS /api/v1/auth/login
+2025-06-18 14:54:32 - general - INFO - API Request: OPTIONS /api/v1/auth/login | Status: 200 | Duration: 0.001s
+2025-06-18 14:54:32 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 14:54:32 - general - INFO - PERFORMANCE: user_login took 0.338s | User type: instructor
+2025-06-18 14:54:32 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.347s
+2025-06-18 14:56:30 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 14:56:30 - general - INFO - PERFORMANCE: user_login took 0.273s | User type: instructor
+2025-06-18 14:56:30 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.280s
+2025-06-18 14:59:03 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 14:59:03 - general - INFO - PERFORMANCE: user_login took 0.293s | User type: instructor
+2025-06-18 14:59:03 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.299s
+2025-06-18 14:59:12 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 14:59:12 - general - INFO - PERFORMANCE: user_login took 0.337s | User type: student
+2025-06-18 14:59:12 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.343s
+2025-06-18 14:59:35 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 14:59:35 - general - INFO - PERFORMANCE: user_login took 0.315s | User type: admin
+2025-06-18 14:59:35 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.323s
+2025-06-18 15:11:55 - general - INFO - API Request: OPTIONS /api/v1/auth/login
+2025-06-18 15:11:55 - general - INFO - API Request: OPTIONS /api/v1/auth/login | Status: 200 | Duration: 0.001s
+2025-06-18 15:11:56 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:11:56 - general - INFO - PERFORMANCE: user_login took 0.327s | User type: student
+2025-06-18 15:11:56 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.331s
+2025-06-18 15:12:24 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:12:25 - general - INFO - PERFORMANCE: user_login took 0.290s | User type: admin
+2025-06-18 15:12:25 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.295s
+2025-06-18 15:12:37 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:12:37 - general - INFO - PERFORMANCE: user_login took 0.290s | User type: instructor
+2025-06-18 15:12:37 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.294s
+2025-06-18 15:17:32 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:17:32 - general - INFO - PERFORMANCE: user_login took 0.232s | User type: instructor
+2025-06-18 15:17:32 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.237s
+2025-06-18 15:17:39 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:17:39 - general - INFO - PERFORMANCE: user_login took 0.233s | User type: student
+2025-06-18 15:17:39 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.239s
+2025-06-18 15:18:31 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:18:31 - general - INFO - PERFORMANCE: user_login took 0.237s | User type: instructor
+2025-06-18 15:18:31 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.241s
+2025-06-18 15:21:36 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:21:36 - general - INFO - PERFORMANCE: user_login took 0.229s | User type: admin
+2025-06-18 15:21:36 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.232s
+2025-06-18 15:22:48 - general - INFO - API Request: OPTIONS /api/v1/auth/login
+2025-06-18 15:22:48 - general - INFO - API Request: OPTIONS /api/v1/auth/login | Status: 200 | Duration: 0.001s
+2025-06-18 15:22:48 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:22:49 - general - INFO - PERFORMANCE: user_login took 0.236s | User type: instructor
+2025-06-18 15:22:49 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.239s
+2025-06-18 15:26:47 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:26:47 - general - INFO - PERFORMANCE: user_login took 0.230s | User type: student
+2025-06-18 15:26:47 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.234s
+2025-06-18 15:28:10 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:28:10 - general - INFO - PERFORMANCE: user_login took 0.238s | User type: instructor
+2025-06-18 15:28:10 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.241s
+2025-06-18 15:29:03 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:29:03 - general - INFO - PERFORMANCE: user_login took 0.232s | User type: admin
+2025-06-18 15:29:03 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.239s
+2025-06-18 15:30:02 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:30:02 - general - INFO - PERFORMANCE: user_login took 0.245s | User type: instructor
+2025-06-18 15:30:02 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.249s
+2025-06-18 15:31:54 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:31:54 - general - INFO - PERFORMANCE: user_login took 0.243s | User type: admin
+2025-06-18 15:31:54 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.247s
+2025-06-18 15:37:52 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 15:37:52 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 15:38:27 - general - INFO - API Request: OPTIONS /api/v1/auth/login
+2025-06-18 15:38:27 - general - INFO - API Request: OPTIONS /api/v1/auth/login | Status: 200 | Duration: 0.002s
+2025-06-18 15:38:27 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:38:27 - general - INFO - PERFORMANCE: user_login took 0.394s | User type: instructor
+2025-06-18 15:38:27 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.400s
+2025-06-18 15:38:47 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:38:47 - general - INFO - PERFORMANCE: user_login took 0.296s | User type: student
+2025-06-18 15:38:47 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.301s
+2025-06-18 15:40:41 - general - INFO - API Request: OPTIONS /api/v1/auth/register
+2025-06-18 15:40:41 - general - INFO - API Request: OPTIONS /api/v1/auth/register | Status: 200 | Duration: 0.001s
+2025-06-18 15:40:41 - general - INFO - API Request: POST /api/v1/auth/register
+2025-06-18 15:40:45 - general - INFO - DB CREATE: Table: base_user | Record ID: 4 | Details: User type: admin
+2025-06-18 15:40:45 - general - INFO - DB CREATE: Table: admin | Record ID: 2
+2025-06-18 15:40:45 - general - INFO - PERFORMANCE: user_registration took 4.131s | User type: admin
+2025-06-18 15:40:45 - general - INFO - API Request: POST /api/v1/auth/register | Status: 201 | Duration: 4.151s
+2025-06-18 15:40:45 - general - INFO - PERFORMANCE: POST /api/v1/auth/register took 4.151s | Slow request detected
+2025-06-18 15:40:45 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:40:45 - general - INFO - PERFORMANCE: user_login took 0.282s | User type: admin
+2025-06-18 15:40:45 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.287s
+2025-06-18 15:42:04 - general - INFO - API Request: POST /api/v1/auth/register
+2025-06-18 15:42:11 - general - INFO - DB CREATE: Table: base_user | Record ID: 5 | Details: User type: instructor
+2025-06-18 15:42:11 - general - INFO - DB CREATE: Table: instructor | Record ID: 2
+2025-06-18 15:42:11 - general - INFO - PERFORMANCE: user_registration took 6.151s | User type: instructor
+2025-06-18 15:42:11 - general - INFO - API Request: POST /api/v1/auth/register | Status: 201 | Duration: 6.157s
+2025-06-18 15:42:11 - general - INFO - PERFORMANCE: POST /api/v1/auth/register took 6.157s | Slow request detected
+2025-06-18 15:42:11 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:42:11 - general - INFO - PERFORMANCE: user_login took 0.244s | User type: instructor
+2025-06-18 15:42:11 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.250s
+2025-06-18 15:44:00 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:44:01 - general - INFO - PERFORMANCE: user_login took 0.267s | User type: student
+2025-06-18 15:44:01 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.286s
+2025-06-18 15:44:30 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 15:44:30 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 15:44:32 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 15:44:32 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 15:44:44 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 15:44:44 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 15:44:46 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 15:44:46 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 15:44:49 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 15:44:49 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 15:47:06 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 15:47:06 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 15:47:06 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:47:06 - general - INFO - PERFORMANCE: user_login took 0.327s | User type: student
+2025-06-18 15:47:06 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.335s
+2025-06-18 15:47:06 - general - INFO - API Request: POST /api/v1/auth/login
+2025-06-18 15:47:06 - general - INFO - PERFORMANCE: user_login took 0.266s | User type: student
+2025-06-18 15:47:06 - general - INFO - API Request: POST /api/v1/auth/login | Status: 200 | Duration: 0.270s
+2025-06-18 15:47:20 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 15:47:20 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 15:47:22 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 15:47:22 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 15:47:22 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 15:47:22 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 15:48:06 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 15:48:06 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 15:48:08 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 15:48:08 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 15:48:09 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 15:48:09 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 15:50:27 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 15:50:27 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 15:50:29 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 15:50:29 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 15:53:10 - general - INFO - API Request: DELETE /api/v1/auth/delete-user
+2025-06-18 15:53:12 - general - INFO - DB DELETE: Table: admin | Record ID: 2
+2025-06-18 15:53:12 - general - INFO - DB DELETE: Table: base_user | Record ID: 2
+2025-06-18 15:53:12 - general - INFO - PERFORMANCE: user_deletion took 1.577s | User type: admin
+2025-06-18 15:53:12 - general - INFO - API Request: DELETE /api/v1/auth/delete-user | Status: 200 | Duration: 1.580s
+2025-06-18 15:53:12 - general - INFO - PERFORMANCE: DELETE /api/v1/auth/delete-user took 1.580s | Slow request detected
+2025-06-18 15:53:41 - general - INFO - API Request: POST /api/v1/auth/login | User: authenticated_user
+2025-06-18 15:53:41 - general - INFO - PERFORMANCE: user_login took 0.311s | User type: admin
+2025-06-18 15:53:41 - general - INFO - API Request: POST /api/v1/auth/login | User: authenticated_user | Status: 200 | Duration: 0.317s
+2025-06-18 15:54:00 - general - INFO - API Request: POST /api/v1/auth/login | User: authenticated_user
+2025-06-18 15:54:01 - general - INFO - PERFORMANCE: user_login took 0.313s | User type: student
+2025-06-18 15:54:01 - general - INFO - API Request: POST /api/v1/auth/login | User: authenticated_user | Status: 200 | Duration: 0.317s
+2025-06-18 15:55:05 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 15:55:05 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 15:55:07 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 15:55:07 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 15:55:24 - general - INFO - API Request: POST /api/v1/auth/login | User: authenticated_user
+2025-06-18 15:55:25 - general - INFO - PERFORMANCE: user_login took 0.338s | User type: instructor
+2025-06-18 15:55:25 - general - INFO - API Request: POST /api/v1/auth/login | User: authenticated_user | Status: 200 | Duration: 0.344s
+2025-06-18 15:55:48 - general - INFO - API Request: GET /api/v1/instructor/profile | User: authenticated_user
+2025-06-18 15:55:48 - general - INFO - API Request: GET /api/v1/instructor/profile | User: authenticated_user | Status: 200 | Duration: 0.017s
+2025-06-18 15:56:03 - general - INFO - API Request: GET /api/v1/instructor/dashboard | User: authenticated_user
+2025-06-18 15:56:03 - general - INFO - API Request: GET /api/v1/instructor/dashboard | User: authenticated_user | Status: 200 | Duration: 0.036s
+2025-06-18 15:58:48 - general - INFO - API Request: PUT /api/v1/instructor/courses/ | User: authenticated_user
+2025-06-18 15:58:48 - general - INFO - API Request: PUT /api/v1/instructor/courses/ | User: authenticated_user | Status: 404 | Duration: 0.002s
+2025-06-18 16:00:13 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 16:00:13 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 16:00:24 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 16:00:24 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 16:00:27 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 16:00:27 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 16:00:29 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 16:00:29 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 16:00:33 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 16:00:33 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 16:00:35 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 16:00:35 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 16:00:35 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 16:00:35 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 16:00:37 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 16:00:37 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 16:00:37 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 16:00:37 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 16:00:39 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 16:00:39 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 16:00:52 - general - INFO - API Request: GET /api/v1/instructor/courses/all-courses | User: authenticated_user
+2025-06-18 16:00:52 - general - INFO - PERFORMANCE: get_all_courses took 0.023s | Retrieved 3 courses
+2025-06-18 16:00:52 - general - INFO - DB READ: Table: courses | Details: Retrieved all 3 courses
+2025-06-18 16:00:52 - general - INFO - API Request: GET /api/v1/instructor/courses/all-courses | User: authenticated_user | Status: 200 | Duration: 0.041s
+2025-06-18 16:01:10 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 16:01:10 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 16:01:12 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 16:01:12 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 16:01:45 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 16:01:45 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 16:01:58 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 16:01:58 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 16:01:58 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 16:01:58 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 16:02:00 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 16:02:00 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 16:03:26 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 16:03:26 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 16:03:28 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 16:03:28 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 16:03:28 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 16:03:28 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 16:03:30 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 16:03:30 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 16:03:55 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 16:03:55 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 16:03:58 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 16:03:58 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 18:42:25 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 18:42:25 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 18:42:27 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 18:42:27 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 18:42:28 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 18:42:28 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 18:43:26 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 18:43:26 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 18:43:28 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 18:43:28 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 18:43:30 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 18:43:30 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 18:43:32 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 18:43:32 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 18:44:49 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 18:44:49 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 18:44:51 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 18:44:51 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 18:44:52 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 18:44:52 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 18:45:05 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 18:45:05 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 18:45:07 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 18:45:07 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 18:45:09 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 18:45:09 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 18:45:12 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 18:45:12 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 18:46:04 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 18:46:04 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 18:46:06 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 18:46:06 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 18:46:08 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 18:46:08 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:04:16 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:04:16 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:05:58 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:05:59 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 20:06:02 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 20:06:02 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 20:06:04 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:06:04 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:06:11 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:06:11 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:06:14 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:06:14 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:06:26 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:06:26 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:06:34 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:06:34 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:06:37 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:06:37 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:06:44 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:06:44 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:06:55 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:06:55 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:07:04 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:07:04 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:08:47 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:08:47 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 20:09:12 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 20:09:12 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 20:09:14 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:09:14 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 20:09:14 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 20:09:14 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 20:09:16 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:09:16 - general - INFO - SYSTEM STARTUP | Database initialized successfully
+2025-06-18 20:09:22 - general - INFO - SYSTEM SHUTDOWN | Application shutting down
+2025-06-18 20:09:22 - general - INFO - SYSTEM SHUTDOWN | Database connection closed
+2025-06-18 20:09:24 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:09:24 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:09:34 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:09:34 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:09:40 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:09:40 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:09:45 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:09:45 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:09:51 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:09:51 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:09:57 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:09:57 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:10:04 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:10:04 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:10:07 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:10:07 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:13:13 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:13:13 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-18 20:13:16 - general - INFO - SYSTEM STARTUP | Application starting up
+2025-06-18 20:13:16 - general - INFO - SYSTEM STARTUP_ERROR | Failed to start application: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)

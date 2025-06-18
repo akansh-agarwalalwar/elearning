@@ -1,0 +1,83 @@
+2025-06-17 19:23:05 - auth - INFO - AUTH LOGIN: akanshag - SUCCESS | Details: User type: instructor
+2025-06-17 23:38:52 - auth - INFO - AUTH LOGIN: akanshag - SUCCESS | Details: User type: instructor
+2025-06-17 23:40:53 - auth - INFO - AUTH LOGIN: 123456akansh@gmail.com - FAILED | Details: Invalid credentials
+2025-06-17 23:40:53 - auth - WARNING - SECURITY FAILED_LOGIN | User: 123456akansh@gmail.com | Details: Invalid username or password
+2025-06-17 23:41:25 - auth - INFO - AUTH LOGIN: 123456akansh@gmail.com - FAILED | Details: Invalid credentials
+2025-06-17 23:41:25 - auth - WARNING - SECURITY FAILED_LOGIN | User: 123456akansh@gmail.com | Details: Invalid username or password
+2025-06-17 23:41:55 - auth - INFO - AUTH LOGIN: akanshag - FAILED | Details: Invalid credentials
+2025-06-17 23:41:55 - auth - WARNING - SECURITY FAILED_LOGIN | User: akanshag | Details: Invalid username or password
+2025-06-17 23:42:39 - auth - INFO - AUTH LOGIN: akanshag - FAILED | Details: Invalid credentials
+2025-06-17 23:42:39 - auth - WARNING - SECURITY FAILED_LOGIN | User: akanshag | Details: Invalid username or password
+2025-06-17 23:43:21 - auth - INFO - AUTH LOGIN: akanshag - FAILED | Details: Invalid credentials
+2025-06-17 23:43:21 - auth - WARNING - SECURITY FAILED_LOGIN | User: akanshag | Details: Invalid username or password
+2025-06-17 23:43:25 - auth - INFO - AUTH LOGIN: akanshag - FAILED | Details: Invalid credentials
+2025-06-17 23:43:25 - auth - WARNING - SECURITY FAILED_LOGIN | User: akanshag | Details: Invalid username or password
+2025-06-17 23:45:18 - auth - INFO - AUTH LOGIN: 123456akansh@gmail.com - FAILED | Details: Invalid credentials
+2025-06-17 23:45:18 - auth - WARNING - SECURITY FAILED_LOGIN | User: 123456akansh@gmail.com | Details: Invalid username or password
+2025-06-17 23:48:48 - auth - INFO - AUTH REGISTER: akansh - SUCCESS | Details: User type: student
+2025-06-17 23:49:05 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-17 23:49:22 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-17 23:51:01 - auth - INFO - AUTH LOGIN: 123456akansh@gmail.com - FAILED | Details: Invalid credentials
+2025-06-17 23:51:01 - auth - WARNING - SECURITY FAILED_LOGIN | User: 123456akansh@gmail.com | Details: Invalid username or password
+2025-06-17 23:51:10 - auth - INFO - AUTH LOGIN: 142akansh@gmail.com - FAILED | Details: Invalid credentials
+2025-06-17 23:51:10 - auth - WARNING - SECURITY FAILED_LOGIN | User: 142akansh@gmail.com | Details: Invalid username or password
+2025-06-17 23:51:12 - auth - INFO - AUTH LOGIN: 142akansh@gmail.com - FAILED | Details: Invalid credentials
+2025-06-17 23:51:12 - auth - WARNING - SECURITY FAILED_LOGIN | User: 142akansh@gmail.com | Details: Invalid username or password
+2025-06-17 23:51:19 - auth - INFO - AUTH LOGIN: 142akansh@gmail.com - FAILED | Details: Invalid credentials
+2025-06-17 23:51:19 - auth - WARNING - SECURITY FAILED_LOGIN | User: 142akansh@gmail.com | Details: Invalid username or password
+2025-06-17 23:52:06 - auth - INFO - AUTH LOGIN: 123456akansh@gmail.com - FAILED | Details: Invalid credentials
+2025-06-17 23:52:06 - auth - WARNING - SECURITY FAILED_LOGIN | User: 123456akansh@gmail.com | Details: Invalid username or password
+2025-06-17 23:52:17 - auth - INFO - AUTH LOGIN: 142akansh@gmail.com - FAILED | Details: Invalid credentials
+2025-06-17 23:52:17 - auth - WARNING - SECURITY FAILED_LOGIN | User: 142akansh@gmail.com | Details: Invalid username or password
+2025-06-17 23:52:40 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-17 23:53:53 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-17 23:59:34 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-18 00:04:19 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-18 00:11:05 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-18 00:11:44 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-18 00:13:15 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-18 00:18:37 - auth - INFO - AUTH REGISTER: akanshadmin - SUCCESS | Details: User type: admin
+2025-06-18 00:18:38 - auth - INFO - AUTH LOGIN: akanshadmin - SUCCESS | Details: User type: admin
+2025-06-18 00:30:17 - auth - INFO - AUTH REGISTER: akanshinstructor - SUCCESS | Details: User type: instructor
+2025-06-18 00:30:17 - auth - INFO - AUTH LOGIN: akanshinstructor - SUCCESS | Details: User type: instructor
+2025-06-18 00:31:28 - auth - INFO - AUTH LOGIN: akanshinstructor - SUCCESS | Details: User type: instructor
+2025-06-18 00:55:47 - auth - INFO - AUTH LOGIN: akanshinstructor - SUCCESS | Details: User type: instructor
+2025-06-18 09:57:20 - auth - INFO - AUTH LOGIN: akanshag - FAILED | Details: Invalid credentials
+2025-06-18 09:57:20 - auth - WARNING - SECURITY FAILED_LOGIN | User: akanshag | Details: Invalid username or password
+2025-06-18 09:57:40 - auth - INFO - AUTH LOGIN: akanshinstructor - SUCCESS | Details: User type: instructor
+2025-06-18 10:22:21 - auth - INFO - AUTH LOGIN: akanshinstructor - SUCCESS | Details: User type: instructor
+2025-06-18 12:52:00 - auth - INFO - AUTH LOGIN: akanshadmin - SUCCESS | Details: User type: admin
+2025-06-18 12:52:10 - auth - INFO - AUTH LOGIN: akanshinstructor - SUCCESS | Details: User type: instructor
+2025-06-18 12:52:21 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-18 12:57:55 - auth - INFO - AUTH LOGIN: akanshinstructor - SUCCESS | Details: User type: instructor
+2025-06-18 13:00:07 - auth - INFO - AUTH LOGIN: akanshadmin - SUCCESS | Details: User type: admin
+2025-06-18 14:54:32 - auth - INFO - AUTH LOGIN: akanshinstructor - SUCCESS | Details: User type: instructor
+2025-06-18 14:56:30 - auth - INFO - AUTH LOGIN: akanshinstructor - SUCCESS | Details: User type: instructor
+2025-06-18 14:59:03 - auth - INFO - AUTH LOGIN: akanshinstructor - SUCCESS | Details: User type: instructor
+2025-06-18 14:59:12 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-18 14:59:35 - auth - INFO - AUTH LOGIN: akanshadmin - SUCCESS | Details: User type: admin
+2025-06-18 15:11:56 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-18 15:12:25 - auth - INFO - AUTH LOGIN: akanshadmin - SUCCESS | Details: User type: admin
+2025-06-18 15:12:37 - auth - INFO - AUTH LOGIN: akanshinstructor - SUCCESS | Details: User type: instructor
+2025-06-18 15:17:32 - auth - INFO - AUTH LOGIN: akanshinstructor - SUCCESS | Details: User type: instructor
+2025-06-18 15:17:39 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-18 15:18:31 - auth - INFO - AUTH LOGIN: akanshinstructor - SUCCESS | Details: User type: instructor
+2025-06-18 15:21:36 - auth - INFO - AUTH LOGIN: akanshadmin - SUCCESS | Details: User type: admin
+2025-06-18 15:22:49 - auth - INFO - AUTH LOGIN: akanshinstructor - SUCCESS | Details: User type: instructor
+2025-06-18 15:26:47 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-18 15:28:10 - auth - INFO - AUTH LOGIN: akanshinstructor - SUCCESS | Details: User type: instructor
+2025-06-18 15:29:03 - auth - INFO - AUTH LOGIN: akanshadmin - SUCCESS | Details: User type: admin
+2025-06-18 15:30:02 - auth - INFO - AUTH LOGIN: akanshinstructor - SUCCESS | Details: User type: instructor
+2025-06-18 15:31:54 - auth - INFO - AUTH LOGIN: akanshadmin - SUCCESS | Details: User type: admin
+2025-06-18 15:38:27 - auth - INFO - AUTH LOGIN: akanshinstructor - SUCCESS | Details: User type: instructor
+2025-06-18 15:38:47 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-18 15:40:45 - auth - INFO - AUTH REGISTER: admin - SUCCESS | Details: User type: admin
+2025-06-18 15:40:45 - auth - INFO - AUTH LOGIN: admin - SUCCESS | Details: User type: admin
+2025-06-18 15:42:11 - auth - INFO - AUTH REGISTER: instructor - SUCCESS | Details: User type: instructor
+2025-06-18 15:42:11 - auth - INFO - AUTH LOGIN: instructor - SUCCESS | Details: User type: instructor
+2025-06-18 15:44:01 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-18 15:47:06 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-18 15:47:06 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-18 15:53:41 - auth - INFO - AUTH LOGIN: admin - SUCCESS | Details: User type: admin
+2025-06-18 15:54:01 - auth - INFO - AUTH LOGIN: akansh - SUCCESS | Details: User type: student
+2025-06-18 15:55:25 - auth - INFO - AUTH LOGIN: akanshinstructor - SUCCESS | Details: User type: instructor

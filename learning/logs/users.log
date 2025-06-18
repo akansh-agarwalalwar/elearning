@@ -1,0 +1,56 @@
+2025-06-17 19:23:05 - users - INFO - USER LOGIN: User ID: 5 | Type: instructor
+2025-06-17 23:38:52 - users - INFO - USER LOGIN: User ID: 5 | Type: instructor
+2025-06-17 23:48:48 - users - INFO - USER CREATE: User ID: 1 | Type: student | Details: Email: 142akansh@gmail.com
+2025-06-17 23:49:05 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-17 23:49:22 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-17 23:52:40 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-17 23:53:53 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-17 23:59:34 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-18 00:04:19 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-18 00:11:05 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-18 00:11:44 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-18 00:13:15 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-18 00:18:37 - users - INFO - USER CREATE: User ID: 2 | Type: admin | Details: Email: 123456akansh@gmail.com
+2025-06-18 00:18:38 - users - INFO - USER LOGIN: User ID: 2 | Type: admin
+2025-06-18 00:30:17 - users - INFO - USER CREATE: User ID: 3 | Type: instructor | Details: Email: akanshagarwal.alwar@gmail.com
+2025-06-18 00:30:17 - users - INFO - USER LOGIN: User ID: 3 | Type: instructor
+2025-06-18 00:31:28 - users - INFO - USER LOGIN: User ID: 3 | Type: instructor
+2025-06-18 00:55:47 - users - INFO - USER LOGIN: User ID: 3 | Type: instructor
+2025-06-18 09:57:40 - users - INFO - USER LOGIN: User ID: 3 | Type: instructor
+2025-06-18 10:22:21 - users - INFO - USER LOGIN: User ID: 3 | Type: instructor
+2025-06-18 12:52:00 - users - INFO - USER LOGIN: User ID: 2 | Type: admin
+2025-06-18 12:52:10 - users - INFO - USER LOGIN: User ID: 3 | Type: instructor
+2025-06-18 12:52:21 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-18 12:57:55 - users - INFO - USER LOGIN: User ID: 3 | Type: instructor
+2025-06-18 13:00:07 - users - INFO - USER LOGIN: User ID: 2 | Type: admin
+2025-06-18 14:54:32 - users - INFO - USER LOGIN: User ID: 3 | Type: instructor
+2025-06-18 14:56:30 - users - INFO - USER LOGIN: User ID: 3 | Type: instructor
+2025-06-18 14:59:03 - users - INFO - USER LOGIN: User ID: 3 | Type: instructor
+2025-06-18 14:59:12 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-18 14:59:35 - users - INFO - USER LOGIN: User ID: 2 | Type: admin
+2025-06-18 15:11:56 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-18 15:12:25 - users - INFO - USER LOGIN: User ID: 2 | Type: admin
+2025-06-18 15:12:37 - users - INFO - USER LOGIN: User ID: 3 | Type: instructor
+2025-06-18 15:17:32 - users - INFO - USER LOGIN: User ID: 3 | Type: instructor
+2025-06-18 15:17:39 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-18 15:18:31 - users - INFO - USER LOGIN: User ID: 3 | Type: instructor
+2025-06-18 15:21:36 - users - INFO - USER LOGIN: User ID: 2 | Type: admin
+2025-06-18 15:22:49 - users - INFO - USER LOGIN: User ID: 3 | Type: instructor
+2025-06-18 15:26:47 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-18 15:28:10 - users - INFO - USER LOGIN: User ID: 3 | Type: instructor
+2025-06-18 15:29:03 - users - INFO - USER LOGIN: User ID: 2 | Type: admin
+2025-06-18 15:30:02 - users - INFO - USER LOGIN: User ID: 3 | Type: instructor
+2025-06-18 15:31:54 - users - INFO - USER LOGIN: User ID: 2 | Type: admin
+2025-06-18 15:38:27 - users - INFO - USER LOGIN: User ID: 3 | Type: instructor
+2025-06-18 15:38:47 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-18 15:40:45 - users - INFO - USER CREATE: User ID: 4 | Type: admin | Details: Email: akansh@gmail.com
+2025-06-18 15:40:45 - users - INFO - USER LOGIN: User ID: 4 | Type: admin
+2025-06-18 15:42:11 - users - INFO - USER CREATE: User ID: 5 | Type: instructor | Details: Email: instructor@gmail.com
+2025-06-18 15:42:11 - users - INFO - USER LOGIN: User ID: 5 | Type: instructor
+2025-06-18 15:44:01 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-18 15:47:06 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-18 15:47:06 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-18 15:53:12 - users - INFO - USER DELETE: User ID: 2 | Type: admin | Details: Email: 123456akansh@gmail.com
+2025-06-18 15:53:41 - users - INFO - USER LOGIN: User ID: 4 | Type: admin
+2025-06-18 15:54:01 - users - INFO - USER LOGIN: User ID: 1 | Type: student
+2025-06-18 15:55:25 - users - INFO - USER LOGIN: User ID: 3 | Type: instructor

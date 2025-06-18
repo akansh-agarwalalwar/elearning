@@ -1,49 +1,125 @@
 from fastapi import APIRouter, HTTPException, status, Query, Depends
-from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select
-from database.db import get_session
-from database.models import BaseUser, Admin, Student, Instructor
-from models.user import BaseUserIn, BaseUser as BaseUserPydantic
+from sqlalchemy.orm import Session
+from config.connection import get_db
+from database.models import User
+from utils.enums import UserRole
 from services.authservice import hash_password
+from services.privilege_service import PrivilegeService
+from middleware.auth import get_current_admin
+from pydantic import BaseModel
 
 router = APIRouter()
 
-@router.post("/create-user", response_model=BaseUserPydantic, status_code=status.HTTP_201_CREATED)
-async def register(user_in: BaseUserIn, session: AsyncSession = Depends(get_session)):
+class AdminUserCreateRequest(BaseModel):
+    username: str
+    email: str
+    password: str
+    role: str
+
+class UserResponse(BaseModel):
+    id: int
+    username: str
+    email: str
+    role: str
+    is_active: bool
+    created_at: str
+    
+    class Config:
+        from_attributes = True
+
+@router.post("/create-user", response_model=UserResponse, status_code=status.HTTP_201_CREATED)
+async def create_user(
+    user_in: AdminUserCreateRequest, 
+    current_admin: User = Depends(get_current_admin),
+    db: Session = Depends(get_db)
+):
+    """
+    Create a new user (Admin only)
+    """
     # Check if username or email already exists
-    query = select(BaseUser).where(
-        (BaseUser.username == user_in.username) | (BaseUser.email == user_in.email)
-    )
-    result = await session.execute(query)
-    existing = result.scalar_one_or_none()
+    existing = db.query(User).filter(
+        (User.username == user_in.username) | (User.email == user_in.email)
+    ).first()
+    
     if existing:
         raise HTTPException(status_code=400, detail="Username or email already registered")
 
+    # Validate role
+    try:
+        role = UserRole(user_in.role.lower())
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid user role")
+
     hashed_password = hash_password(user_in.password)
     
-    # Create base user
-    new_base_user = BaseUser(
+    # Create user
+    new_user = User(
         username=user_in.username,
         password=hashed_password,
         email=user_in.email,
-        user_type=user_in.user_type
+        role=role
     )
     
-    session.add(new_base_user)
-    await session.flush()  # Flush to get the base_user_id
+    db.add(new_user)
+    db.commit()
+    db.refresh(new_user)
     
-    # Create role-specific user
-    if user_in.user_type == "admin":
-        new_role_user = Admin(base_user_id=new_base_user.id)
-    elif user_in.user_type == "student":
-        new_role_user = Student(base_user_id=new_base_user.id)
-    elif user_in.user_type == "instructor":
-        new_role_user = Instructor(base_user_id=new_base_user.id)
-    else:
-        raise HTTPException(status_code=400, detail="Invalid user type")
+    # Assign default privileges if instructor
+    if role == UserRole.INSTRUCTOR:
+        privilege_service = PrivilegeService(db)
+        privilege_service.assign_default_privileges_to_instructor(
+            instructor_id=new_user.id,
+            admin_id=current_admin.id
+        )
     
-    session.add(new_role_user)
-    await session.commit()
-    await session.refresh(new_base_user)
+    return new_user
+
+@router.get("/users", response_model=list[UserResponse])
+async def get_all_users(
+    current_admin: User = Depends(get_current_admin),
+    db: Session = Depends(get_db)
+):
+    """
+    Get all users (Admin only)
+    """
+    users = db.query(User).all()
+    return users
+
+@router.get("/users/{role}", response_model=list[UserResponse])
+async def get_users_by_role(
+    role: str,
+    current_admin: User = Depends(get_current_admin),
+    db: Session = Depends(get_db)
+):
+    """
+    Get users by role (Admin only)
+    """
+    try:
+        user_role = UserRole(role.lower())
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid user role")
     
-    return BaseUserPydantic.from_orm(new_base_user)
+    users = db.query(User).filter(User.role == user_role).all()
+    return users
+
+@router.delete("/users/{user_id}")
+async def delete_user(
+    user_id: int,
+    current_admin: User = Depends(get_current_admin),
+    db: Session = Depends(get_db)
+):
+    """
+    Delete a user (Admin only)
+    """
+    user = db.query(User).filter(User.id == user_id).first()
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+    
+    # Prevent admin from deleting themselves
+    if user.id == current_admin.id:
+        raise HTTPException(status_code=400, detail="Cannot delete your own account")
+    
+    db.delete(user)
+    db.commit()
+    
+    return {"message": "User deleted successfully"}

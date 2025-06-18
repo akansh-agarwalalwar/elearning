@@ -1,10 +1,8 @@
-import asyncio
-from database.db import init_db, close_db
+from config.connection import init_db
 
-async def setup_db():
-    await init_db()
-    await close_db()
+def setup_db():
+    init_db()
+    print("Database initialized successfully!")
 
 if __name__ == "__main__":
-    asyncio.run(setup_db())
-    print("Database schema created successfully!") 
+    setup_db() 
